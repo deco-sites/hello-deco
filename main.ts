@@ -1,5 +1,5 @@
 function handler(_req: Request): Response {
-  return new Response("Hello, World!");
+  return new Response("Hello, Deco!");
 }
 
 Deno.serve(handler);
