@@ -1,5 +1,5 @@
 function handler(_req: Request): Response {
-  return new Response("Hello world wildcardcerts!121233!!!");
+  return new Response("fastest deploy you ever seen!");
 }
 
 Deno.serve(handler);
