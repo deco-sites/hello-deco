@@ -1,5 +1,5 @@
 function handler(_req: Request): Response {
-  return new Response("Hello world, this is the fastest deploy you ever seen!123!");
+  return new Response("Hello world, this is the fastest deploy you ever seen!");
 }
 
 Deno.serve(handler);
